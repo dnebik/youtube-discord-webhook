@@ -1,4 +1,5 @@
 import typescript from 'rollup-plugin-typescript2';
+import json from '@rollup/plugin-json';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -12,6 +13,7 @@ const options = {
   },
   plugins: [
     typescript(),
+    json(),
   ],
 };
 

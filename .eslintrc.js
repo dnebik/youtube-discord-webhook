@@ -11,4 +11,8 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   root: true,
+  rules: {
+    'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
+  }
 };
