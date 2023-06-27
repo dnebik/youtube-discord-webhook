@@ -3,9 +3,8 @@
     "module": "ESNext",
     "target": "ESNext",
     "sourceMap": true,
-    "allowJs": false,
     "types": ["node"],
-    "strict": true,
   },
-  "exclude": [ "node_modules" ]
+  "include": ["./src/*.ts"],
+  "exclude": [ "node_modules"]
 }
